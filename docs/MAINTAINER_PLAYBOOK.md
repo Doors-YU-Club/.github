@@ -13,6 +13,8 @@ This is the club's starting access model. Update it through a pull request when 
 
 Every person uses their own GitHub account with two-factor authentication. Do not use a shared club login. The club email is for contact or billing, not a root account.
 
+An additional Owner is a continuity backup, not an exemption from the review workflow. The president and every other Owner must use a branch and PR for code, content, documentation, configuration, and workflow changes; request `@gqnxx` and wait for their explicit approval before merge. No self-approval or self-merge. The president's approval of public event content is a separate decision and does not replace `gqnxx`'s review of repository changes. If the designated reviewer changes at leadership handover, update this rule and CODEOWNERS through a reviewed PR first.
+
 ## Starting a repository
 
 1. Create **private** repositories only. A deployed website can be public while its source repository remains private. Do not put student records or credentials in either place.
