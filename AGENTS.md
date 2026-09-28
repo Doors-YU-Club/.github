@@ -8,4 +8,4 @@ Read `CONTRIBUTING.md`, `docs/MAINTAINER_PLAYBOOK.md`, and the project repo's `A
 4. Do not deploy, publish, invite people, change roles, or handle secrets without specific authorization from `gqnxx` for that action. Never expose private student information or unapproved club material.
 5. State the checks actually run and uncertainties in the PR. AI-generated content and tests are evidence to review, not human approval.
 
-The repositories remain private on GitHub Free. GitHub does not technically require PR review or block direct `main` pushes here. These are mandatory team rules. Report any accidental direct push to `gqnxx` and document the correction. Do not claim that Markdown files enforce permissions.
+Project and template repositories remain private on GitHub Free. The `.github` repository is public solely to display the organization profile and shared contribution guidance. GitHub does not technically require PR review or block direct `main` pushes on the private repositories. These are mandatory team rules. Report any accidental direct push to `gqnxx` and document the correction. Do not claim that Markdown files enforce permissions.

@@ -17,11 +17,11 @@ An additional Owner is a continuity backup, not an exemption from the review wor
 
 ## Starting a repository
 
-1. Create **private** repositories only. A deployed website can be public while its source repository remains private. Do not put student records or credentials in either place.
+1. Create **private** project repositories only. The `.github` repository is public to display the organization profile and shared contribution guidance. A deployed website can be public while its source repository remains private. Do not put student records or credentials in either place.
 2. Create from [`doors-project-template`](https://github.com/Doors-YU-Club/doors-project-template). Replace the placeholders in `README.md` and `AGENTS.md`.
 3. Give teams **Triage** initially. Grant Write or Maintain only to named people when their work requires it and the organization owner accepts the current branch-control limitation. Keep Admin with owners.
 4. Keep `CODEOWNERS` pointed at `gqnxx` until a named reviewer has Write or Maintain; GitHub only requests reviews from code owners with sufficient access.
-5. Add actual build, test, and lint commands, then run them in CI. Use branches and pull requests for all changes. **GitHub Free does not enforce branch protection on private organization repositories**; the API returns HTTP 403. The club will stay on Free, so this remains a team policy rather than a technical lock. Do not start a trial, upgrade, or change repository visibility. Before granting a named coder Write access, explain the direct-`main` risk to `gqnxx`.
+5. Add actual build, test, and lint commands, then run them in CI. Use branches and pull requests for all changes. **GitHub Free does not enforce branch protection on private organization repositories**; the API returns HTTP 403. The club will stay on Free, so this remains a team policy rather than a technical lock. Do not start a trial, upgrade, or change project repository visibility. Before granting a named coder Write access, explain the direct-`main` risk to `gqnxx`.
 6. Record where secrets live and how to report security issues. Do not store real secrets in Git.
 
 ## Current projects
