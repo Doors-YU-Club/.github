@@ -19,7 +19,7 @@ Every person uses their own GitHub account with two-factor authentication. Do no
 2. Create from [`doors-project-template`](https://github.com/Doors-YU-Club/doors-project-template). Replace the placeholders in `README.md` and `AGENTS.md`.
 3. Give teams **Triage** initially. Grant Write or Maintain only to named people when their work requires it and the organization owner accepts the current branch-control limitation. Keep Admin with owners.
 4. Keep `CODEOWNERS` pointed at `gqnxx` until a named reviewer has Write or Maintain; GitHub only requests reviews from code owners with sufficient access.
-5. Add actual build, test, and lint commands, then run them in CI. Use branches and pull requests for all changes. **GitHub Free does not enforce branch protection on private organization repositories**; the API returns HTTP 403. To technically require PRs on private repositories, move to a plan that supports it, then configure protection on every `main` branch, including admins, with no bypass. Require one approving human review once a second active reviewer can approve the owner's PRs.
+5. Add actual build, test, and lint commands, then run them in CI. Use branches and pull requests for all changes. **GitHub Free does not enforce branch protection on private organization repositories**; the API returns HTTP 403. The club will stay on Free, so this remains a team policy rather than a technical lock. Do not start a trial, upgrade, or change repository visibility. Before granting a named coder Write access, explain the direct-`main` risk to `gqnxx`.
 6. Record where secrets live and how to report security issues. Do not store real secrets in Git.
 
 ## Current projects
