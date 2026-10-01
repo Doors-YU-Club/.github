@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Doors-YU-Club/.github/refs/heads/main/profile/assets/doors-logo.jpg" alt="Official DOORS Club logo" width="96" height="96">
+</p>
+
 # Doors YU Club GitHub standards
 
 This public repository holds the shared contribution guidance for Doors YU Club projects. GitHub displays supported files here as defaults when a project repository does not provide its own version.

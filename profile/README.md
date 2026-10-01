@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Doors-YU-Club/.github/refs/heads/main/profile/assets/doors-logo.jpg" alt="Official DOORS Club logo" width="120" height="120">
+</p>
+
 # DOORS
 
 **Opening doors to professional growth.**

@@ -26,10 +26,10 @@ An additional Owner is a continuity backup, not an exemption from the review wor
 
 ## Current projects
 
-- [`doors-club-website`](https://github.com/Doors-YU-Club/doors-club-website) is the permanent club site project.
-- [`mental-health-awareness-2026`](https://github.com/Doors-YU-Club/mental-health-awareness-2026) is a separate time-limited event site project. Event details are tentative until leadership confirms them. The supplied burnout-card prototype is reference material and must pass content, source, rights, and accessibility review before publication.
+- The university plans to create the permanent club website and hand it over later. Handover details are not known. The club's earlier `doors-club-website` repository was deleted at the owner's request on 2026-10-01; do not direct members to it.
+- [`mental-health-awareness-2026`](https://github.com/Doors-YU-Club/mental-health-awareness-2026) is the private, time-limited event site project. Event details are tentative until leadership confirms them. The president has supplied a [public card-explorer MVP](https://singular-mochi-b53902.netlify.app/) hosted outside this repository. Its source, deployment ownership, content, rights, and accessibility need review before the committee reuses it. The requested Boost messages board is tracked in the event issues.
 
-Both repositories have unassigned issues for volunteers, including noncoding tasks and a repo lead opening. The project workflow documents explain how to claim work. The projects are private, and neither is deployed yet.
+The event repository has unassigned issues for volunteers, including noncoding tasks and a repo lead opening. Its workflow explains how to claim work. Its source remains private; a public MVP exists separately on Netlify. Do not treat the MVP's existence as approval of new code or content.
 
 ## Handover and routine review
 
