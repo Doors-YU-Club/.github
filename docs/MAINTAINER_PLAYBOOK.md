@@ -13,7 +13,7 @@ This is the club's starting access model. Update it through a pull request when 
 
 Every person uses their own GitHub account with two-factor authentication. Do not use a shared club login. The club email is for contact or billing, not a root account.
 
-An additional Owner is a continuity backup, not an exemption from the review workflow. The president and every other Owner must use a branch and PR for code, content, documentation, configuration, and workflow changes; request `@gqnxx` and wait for their explicit approval before merge. No self-approval or self-merge. The president's approval of public event content is a separate decision and does not replace `gqnxx`'s review of repository changes. If the designated reviewer changes at leadership handover, update this rule and CODEOWNERS through a reviewed PR first.
+An additional Owner is a continuity backup, not an exemption from the branch-and-PR workflow. Contributors other than `gqnxx` must request owner review and wait for explicit approval before merge. If `gqnxx` authors a PR and no independent reviewer is available, the owner may personally inspect the full diff and checks, leave a short review note, and merge it. An AI agent may merge only when `gqnxx` explicitly authorizes that specific merge after review. Never push directly to `main`. The president's approval of public event content is a separate decision. If the designated reviewer changes at leadership handover, update this rule and CODEOWNERS through a PR first.
 
 ## Starting a repository
 
@@ -27,9 +27,9 @@ An additional Owner is a continuity backup, not an exemption from the review wor
 ## Current projects
 
 - The university plans to create the permanent club website and hand it over later. Handover details are not known. The club's earlier `doors-club-website` repository was deleted at the owner's request on 2026-10-01; do not direct members to it.
-- [`mental-health-awareness-2026`](https://github.com/Doors-YU-Club/mental-health-awareness-2026) is the private, time-limited event site project. Event details are tentative until leadership confirms them. The president has supplied a [public card-explorer MVP](https://singular-mochi-b53902.netlify.app/) hosted outside this repository. Its source, deployment ownership, content, rights, and accessibility need review before the committee reuses it. The requested Boost messages board is tracked in the event issues.
+- [`mental-health-awareness-2026`](https://github.com/Doors-YU-Club/mental-health-awareness-2026) is the private, time-limited event site project. Its planned dates are October 11–13, 2026, on the Al Yamamah University campus; exact room, hours, title, program, contact/registration route, and publication plan remain unconfirmed. The president has supplied a [public card-explorer MVP](https://singular-mochi-b53902.netlify.app/) hosted outside this repository. Its source and reuse rights need review before the committee reuses it. The requested Boost messages board is tracked in the event issues.
 
-The event repository has unassigned issues for volunteers, including noncoding tasks and a repo lead opening. Its workflow explains how to claim work. Its source remains private; a public MVP exists separately on Netlify. Do not treat the MVP's existence as approval of new code or content.
+Check the event repository's live issue list for current owners and available work; assignments change, and the repo-lead coordination issue is closed. Non-coding tasks are available through the project issues. Its source remains private; a public MVP exists separately on Netlify. Do not treat the MVP's existence as approval of new code or content.
 
 ## Handover and routine review
 
